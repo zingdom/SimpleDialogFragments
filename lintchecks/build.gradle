@@ -1,8 +1,8 @@
 apply plugin: 'java-library'
 
 dependencies {
-    compileOnly "com.android.tools.lint:lint-api:$lintVersion"
-    compileOnly "com.android.tools.lint:lint-checks:$lintVersion"
+    implementation "com.android.tools.lint:lint-api:$lintVersion"
+    implementation "com.android.tools.lint:lint-checks:$lintVersion"
 //    implementation fileTree(dir: 'libs', include: ['*.jar'])
 //    testCompile "junit:junit:4.12"
 //    testCompile "com.android.tools.lint:lint:$lintVersion"

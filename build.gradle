@@ -2,7 +2,7 @@
 
 buildscript {
     ext {
-        gradlePluginVersion = '3.0.1'   // <X>.<Y>.<Z>
+        gradlePluginVersion = '3.2.1'   // <X>.<Y>.<Z>
         lintVersion = '26.0.1'          // <X+23>.<Y>.<Z>
 
     }
@@ -11,7 +11,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath "com.android.tools.build:gradle:$gradlePluginVersion"
+        classpath 'com.android.tools.build:gradle:3.2.1'
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
